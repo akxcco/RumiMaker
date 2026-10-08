@@ -10,39 +10,52 @@ The sprites were exported directly from `Rumi.psd` at full resolution (**2138 ×
 index.html          Rumi's character generator
 manifest.json       Sprite data and canvas positions
 
-poses/
-  standing-normal/
-  standing-holding-something/
-  laying-on-belly/
-  sitting-hands-tucked/
-  extras-typing/
-    default/
-    pastel/
-    dark/
-    cyberglass/
-      body.png
-      thumb.png
-      expressions/
-        neutral.png
-        happy.png
-        excited.png
-        confused.png
-        sad.png
-        angry.png
-        unbothered.png
-        uwu.png
-        dead.png
-        love.png
-        we-deadass-bro.png
+◆ Aromas
+  ├─ Thoughts
+  ├─ Sparkles
+  ├─ Surprise
+  ├─ Loading
+  ├─ Anger
+  ├─ Lovely
+  └─ Confusion
 
-aromas/
-  thoughts.png
-  sparkles.png
-  surprise.png
-  loading.png
-  anger.png
-  lovely.png
-  confusion.png
+◆ Poses
+  ├─ Standing
+  │  └─ Bodies
+  │     ├─ Holding Something
+  │     │  ├─ Cyberglass
+  │     │  ├─ Dark
+  │     │  ├─ Pastel
+  │     │  └─ Default
+  │     └─ Normal
+  │        ├─ Cyberglass
+  │        ├─ Dark
+  │        ├─ Pastel
+  │        └─ Default
+  │
+  ├─ Laying
+  │  └─ Bodies
+  │     └─ Laying on Belly
+  │        ├─ Cyberglass
+  │        ├─ Dark
+  │        ├─ Pastel
+  │        └─ Default
+  │
+  └─ Sitting
+     └─ Bodies
+        └─ Hands Tucked
+           ├─ Cyberglass
+           ├─ Dark
+           ├─ Pastel
+           └─ Default
+
+◆ Extras
+  └─ Bodies
+     └─ Typing
+        ├─ Cyberglass
+        ├─ Dark
+        ├─ Pastel
+        └─ Default
 ```
 
 Each body has its own set of expressions since the expressions are colored to match their body. Make sure to use the expressions from the same body folder.
